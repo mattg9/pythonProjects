@@ -1,16 +1,10 @@
-# Hangman
+# HANGMAN
+# Matthew Gaston
+#
 # A guess the word game
-# Things to keep in mind:
-
- #   Random
- #   Variables
- #   Boolean
- #   Input and Output
- #   Integer
- #   Char
- #   String
- #   Length
- #   Print
+# Makes of use of Random, Variables, Boolean,
+# Input and Output, Integer, Char,
+# String, Length, and Print
  
 import random
 # list of possible game words randomly chosen when the game starts
@@ -79,7 +73,8 @@ def main():
         # user error
         else:
             print("invalid input")
-    
+          
+# execute the game
 if __name__ == "__main__":
     while True:
         main()
